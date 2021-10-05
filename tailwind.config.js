@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend:{
+      screens:{
+        'xs':{'max':'320px'},
+      },
       margin:{
         '5vh':'5vh'
       },

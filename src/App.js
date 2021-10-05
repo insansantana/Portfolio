@@ -11,7 +11,7 @@ import Projects from './components/Projects';
 function App() {
   return (
     <Router>
-      <div className="App relative bg-primary box-content max-w-screen-xl min-h-screen md:min-h-90 md:mt-5vh mx-auto bg-white flex flex-col px-4  md:px-24 rounded-xl">
+      <div className="App relative bg-primary box-content max-w-screen-xl min-h-screen md:min-h-90 lg:mt-5vh mx-auto bg-white flex flex-col lg:px-24 lg:rounded-xl">
           <Navbar/>
           <Switch>
               <Route path="/" exact component={Home} />

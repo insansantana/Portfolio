@@ -5,11 +5,11 @@ import '../../App.css'
 
 const Footer = () => {
     return (
-        <footer className="flex my-4">
-            <a href=""><IconContext.Provider value={{color:"64e064", size:"2em"}}><SiWhatsapp /></IconContext.Provider></a>
-            <a href="" className="mx-10"><IconContext.Provider value={{color:"#BB5287", size:"2em"}}><SiInstagram /></IconContext.Provider></a>
-            <a href=""><IconContext.Provider value={{color:"5592fc", size:"2em"}}><SiFacebook /></IconContext.Provider></a>
-            <a href="" className="mx-10"><IconContext.Provider value={{size:"2em",color:'ffffff'}}><SiGithub /></IconContext.Provider></a>
+        <footer className="flex justify-start my-4 xs:mt-20">
+            <a href="" className="ml-2"><IconContext.Provider value={{color:"64e064", size:"1.5em"}}><SiWhatsapp /></IconContext.Provider></a>
+            <a href="" className="mx-4 md:mx-10"><IconContext.Provider value={{color:"#BB5287", size:"1.5em"}}><SiInstagram /></IconContext.Provider></a>
+            <a href=""><IconContext.Provider value={{color:"5592fc", size:"1.5em"}}><SiFacebook /></IconContext.Provider></a>
+            <a href="" className="mx-4 md:mx-10"><IconContext.Provider value={{size:"1.5em",color:'ffffff'}}><SiGithub /></IconContext.Provider></a>
         </footer>
     )
 }
