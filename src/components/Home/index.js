@@ -18,10 +18,10 @@ const Home = () => {
                 </h1>
                 <br/>
                 <div className="flex items-center">
-                    <button className="rounded-md py-3 px-6 mr-4 bg-blue-400 text-white text-sm md:text-md">
+                    <button className="rounded-md py-2 px-4 mr-4 bg-blue-400 text-white text-sm md:text-md">
                         <Link  to="/about">More Info</Link>
                     </button>
-                        <a href="./pdf/cv.pdf" className="rounded-md py-3 px-6 bg-red-400 text-white text-sm md:text-md">
+                        <a href="./pdf/cv.pdf" className="rounded-md py-2 px-4 bg-red-400 text-white text-sm md:text-md">
                             Download Resume
                         </a>
                 </div> 
