@@ -1,8 +1,6 @@
 import { Link } from 'react-router-dom'
 import  Typewriter  from 'typewriter-effect'
-import { FaSmileBeam,FaFileDownload } from 'react-icons/fa'
 import { motion } from 'framer-motion'
-import { IconContext } from 'react-icons'
 
 
 const Home = () => {

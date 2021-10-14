@@ -1,6 +1,6 @@
 import React from 'react'
 import { IconContext } from 'react-icons'
-import { SiBootstrap, SiCodeigniter, SiCss3, SiHtml5, SiJavascript, SiMongodb, SiMysql, SiPhp, SiTailwindcss } from 'react-icons/si'
+import { SiBootstrap, SiCodeigniter, SiCss3, SiHtml5, SiJavascript, SiMongodb, SiMysql, SiTailwindcss } from 'react-icons/si'
 import { FaPhp } from 'react-icons/fa'
 import { RiReactjsFill } from 'react-icons/ri'
 const Skills = () => {
