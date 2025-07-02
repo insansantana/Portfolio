@@ -57,3 +57,9 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## 📫 Contact
 
 If you’d like to connect, feel free to reach out via [GitHub](https://github.com/insansantana) or open an issue!
+
+## 🗺️ Roadmap
+
+- Implement dark mode
+- Add a blog section
+- Improve SEO
